@@ -1,0 +1,33 @@
+header h1 {
+    color: black;
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 50px;
+    background-color: white;
+    text-align: center;
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
+    padding: 15px 0;
+}
+
+ul li input{
+    list-style-type: none;
+    display: block;
+}
+
+body {
+    background-color: rgb(255, 241, 225);
+}
+
+li {
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+input {
+    
+    border-radius: 4px;
+    width: 20%;
+    border-color: rgb(201, 201, 201);
+    padding: 10px 0;
+}
