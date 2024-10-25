@@ -1,5 +1,6 @@
 const n_fifty = -50;
 const p_fifty = 50;
+
 function Submit () {
     let isValid = true;
     let min_x = document.querySelector(".min-x input").value;
