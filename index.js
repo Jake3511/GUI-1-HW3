@@ -18,7 +18,6 @@ function Submit () {
 
     if(isValid) multiplicationTable(min_x, max_x, min_y, max_y);
 
-    
 }
 
 function check_values(value) {
