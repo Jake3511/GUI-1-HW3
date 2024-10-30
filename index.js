@@ -1,3 +1,11 @@
+/*
+File: index.js
+GUI Assignment: Homework 3, Creating an Interactive Dynamic Table
+Jake Shick, UMass Lowell Computer Science, jake_shick@student.uml.edu
+Copyright (c) 2024 by Shick. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JS on October 30, 2024 at 2:15 PM.
+*/
 const n_fifty = -50; // const value for checking to see if the value is below -50
 const p_fifty = 50; // const value for checking to see if the value is above 50
 
