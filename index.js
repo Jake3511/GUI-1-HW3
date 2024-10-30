@@ -14,7 +14,10 @@ function Submit () {
 
     let max_y = document.querySelector(".max-y input").value; // gets value entered in in max-y input box
     if(!check_values(max_y)) isValid = false;  // checks to see if value is less than -50 or greater than 50
-        
+    
+    if(min_x > max_x || min_y > max_y) {  // this makes sure that the user cannot have a max value that is below the min value.
+        isValid = false;
+    }
     errorMessage(isValid); // This looks at the isValid variable which holds a boolean type, if it's false it prints a error message otherwise it prints nothing
 
     if(isValid) multiplicationTable(min_x, max_x, min_y, max_y); // calls the function that creates the table and handles the multiplication
